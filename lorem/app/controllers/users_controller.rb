@@ -1,4 +1,7 @@
 class UsersController < ApplicationController
+
+  before_action :protect_against_invaders
+
   before_action :set_user, only: [:show, :edit, :update, :destroy]
 
   # GET /users

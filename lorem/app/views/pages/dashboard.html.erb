@@ -1,2 +1,8 @@
 <h1>Pages#dashboard</h1>
 <p>Find me in app/views/pages/dashboard.html.erb</p>
+
+<% if @current_user %>
+  Ya logged in!
+<% else %>
+  <%= link_to "Sign in", sign_in_path %>
+<% end %>

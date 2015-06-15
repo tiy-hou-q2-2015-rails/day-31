@@ -8,6 +8,10 @@
 </head>
 <body>
 
+  <% if alert %>
+    <div class="error"><%= alert %></div>
+  <% end %>
+
 <%= yield %>
 
 </body>
