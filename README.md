@@ -15,6 +15,12 @@ Today:
 1. From Ruby to JS
 1. Console, alerts
 
+Links from Today
+----
+
+* http://jsbin.com/yoqegimasu/edit?js,console
+* http://jsbin.com/guvitazote/edit?html,js,console
+* http://jsbin.com/tobogosuqe/edit?js,console,output
 
 Assignment:
 --------
