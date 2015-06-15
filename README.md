@@ -1,10 +1,7 @@
-Day 36 - Intro to JavaScript
+Day 31 - Intro to JavaScript
 ===============
 
-![thegoodparts](assets/goodparts.png)
-
-
-Quiz:
+Challenge:
 ----
 
 Given the data in movies.json, define a method that finds the worst movie out right
@@ -14,13 +11,12 @@ now (based on `critics_score`)
 Today:
 -----
 
-1. Quiz on defining methods/functions
-2. JavaScript History
-3. From Ruby to JS
-4. Console, alerts
+1. JavaScript History
+1. From Ruby to JS
+1. Console, alerts
 
 
-Homework:
+Assignment:
 --------
 
 Just like we did in Ruby, do these in yavascript
@@ -34,40 +30,41 @@ Just like we did in Ruby, do these in yavascript
 
 Submit via a link to JSBin. In JSBin, select "JS and Console" Output each to the console
 
+Notes
+----
+
 #### Want more javascript?
 
-No.
-
-#### But if you do?
-
-[Eloquent Javascript](http://eloquentjavascript.net/) - Free online
+* [JavaScript for kids](http://www.nostarch.com/jsforkids)  
+* [Eloquent Javascript](http://eloquentjavascript.net/) - Free online
 
 
-## Notes and Links
+#### Links
 
+* http://osscdn.com/#/
 * http://underscorejs.org
 * https://github.com/tsechingho/chosen-rails
 * http://js2.coffee/
 * http://leafletjs.com/
-* Chosen on JSBIN http://jsbin.com/xujekufuyu/edit?html,js,output
-* a.google.on("click") on JSBIN: http://jsbin.com/caroqunica/1/edit?html,js
 
+#### JS methods vs Ruby methods
 
 ```js
 function warnAboutGoogle(){
   alert("don't do it");
-return false;
+  return false;
 }
 ```
 
 ```ruby
 def warn_about_google
   puts "don't do it"
+  false
 end
 ```
 
 
-### jQuery plugins I like
+#### jQuery plugins I like
 
 * https://github.com/christophery/slide-social-buttons
 * http://harvesthq.github.io/chosen/
